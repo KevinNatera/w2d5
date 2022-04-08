@@ -1,0 +1,70 @@
+body {
+    font-family: Arial,sans-serif;
+    background-color: skyblue;
+}
+
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+
+.ingredients-list {
+    list-style: square inside;
+}
+
+.ordered {
+    list-style: circle inside;
+}
+
+header > img {
+    width: 100px;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.rate {
+    cursor: pointer;
+    outline: none;
+}
+
+#review-form :last-child {
+    background-color: gold;
+}
+
+#review-form :last-child:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+}
+
+ol > li:nth-of-type(2n) {
+    background-color: lightgrey;
+}
+
+h2 + #review-form {
+   border: 1px solid black;
+}
+
+input[type=radio] {
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    background-image: url(../assets/stars.png);
+    vertical-align: bottom;
+    outline: none;
+}
+
+input[type=radio]:hover {
+    background-position: center;
+}
+
+input[type=radio]:checked {
+    background-position: bottom;
+}
